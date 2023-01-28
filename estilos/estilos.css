@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Comic Sans, cursive;
+}
+body{
+    padding: 20px 100px;
+}
+.titulo_gral {
+    border: 2px solid black;
+    background-image: url(../fotos/design1_image1.jpg);
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+.titulo_pag {
+    background-color: black;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 3px;
+}
+
+.titulo_pag img {
+    width: 130px;
+    position: absolute;
+    right: 8%;
+    top: -55px;
+}
+
+h1{
+    text-align: left;
+    font-size: 4rem;
+color: rgb(24, 24, 23);
+
+}
+
+h3 {
+    font-style: italic;
+}
+
+nav a {
+    padding: 50px 15px;
+    width: 50%;
+    height: 120px;
+    display: inline-block;
+    position: relative;
+    color: blue;
+}
+nav a.active{
+    color: black;
+    text-decoration: none;
+}
+
+section{
+    display: inline-block;
+    position: relative;
+    left: 70px;
+    top: -305px;
+    padding: 10px 100px;   
+}
+
+.eventos{
+    display:block;
+    position: relative;
+    font-size: large; 
+    padding: 15px; 
+}
+
+.contenido{
+    display:inline-block;
+    position: relative;
+    font-size: large;
+    padding: 15px;
+}
+     
+.direccion{
+    display: inline-block;
+    position: relative;
+    font-size: large;
+    left: 70px;
+    top: -305px;
+    padding: 10px 100px;   
+}
