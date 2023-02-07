@@ -1,3 +1,5 @@
+/*Pagina inicial*/
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -58,9 +60,11 @@ section{
     display: inline-block;
     position: relative;
     left: 70px;
-    top: -305px;
+    top: -555px;
     padding: 10px 100px;   
 }
+
+/*Index*/
 
 .eventos{
     display:block;
@@ -69,18 +73,112 @@ section{
     padding: 15px; 
 }
 
+/*About*/
+
 .contenido{
     display:inline-block;
     position: relative;
     font-size: large;
     padding: 15px;
 }
+
+/*Contacto*/
      
 .direccion{
     display: inline-block;
     position: relative;
     font-size: large;
     left: 70px;
-    top: -305px;
+    top: -555px;
     padding: 10px 100px;   
+}
+
+/*game*/
+section h2{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+section h4 {
+    text-decoration: underline;
+}
+
+caption{
+    position: relative;
+    top: 10px;
+    left: 85px;
+    font-size: x-large;
+
+}
+
+
+th{
+    position: relative;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    top: 40px;
+   
+}
+
+td{
+    position: relative;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    top: 50px;
+}
+
+.cierre{
+    position: relative;
+    bottom: 540px;
+    margin: 40px;
+    padding: 20px;
+    top: 20px;
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+/*Rule*/
+
+.titulorules{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+.caja3 h4{
+    text-decoration: none;
+    text-align: center;
+}
+
+.caja3 h3{
+    margin: 16px;
+
+}
+
+.sport p{
+    margin-top: 10px;
+    text-indent: 40px;
+    
+}
+li{
+    margin-top: 20px;
+}
+.field{
+    list-style-type: lower-alpha;
+}
+.play p{
+    margin-top: 20px;
+    text-indent: 40px;
+}
+.play1{
+    margin-left: 100px;
+    list-style-type: circle;
 }
