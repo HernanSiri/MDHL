@@ -46,7 +46,7 @@ h3 {
 nav a {
     padding: 50px 15px;
     width: 50%;
-    height: 120px;
+    height: 100px;
     display: inline-block;
     position: relative;
     color: blue;
@@ -142,6 +142,9 @@ td{
     justify-content: space-between;
     margin-right: 40px;
 }
+
+
+
 /*Rule*/
 
 .titulorules{
@@ -181,4 +184,24 @@ li{
 .play1{
     margin-left: 100px;
     list-style-type: circle;
+}
+
+/* Formilario */
+form{
+    background-color: rgb(255, 246, 125);
+    padding: 10px;
+    border-radius: 10px;
+    width: 700px;
+}
+button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 20%;
+    color: antiquewhite;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 3px;
 }
